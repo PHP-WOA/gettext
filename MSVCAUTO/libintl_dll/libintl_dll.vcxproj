@@ -121,41 +121,49 @@
     <OutDir>$(SolutionDir)$(PlatformTarget)\$(Configuration)\</OutDir>
     <IntDir>$(PlatformTarget)\$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
+    <TargetName>libintl</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <OutDir>$(SolutionDir)$(PlatformTarget)\$(Configuration)\</OutDir>
     <IntDir>$(PlatformTarget)\$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
+    <TargetName>libintl</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <OutDir>$(SolutionDir)$(PlatformTarget)\$(Configuration)\</OutDir>
     <IntDir>$(PlatformTarget)\$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
+    <TargetName>libintl</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)$(PlatformTarget)\$(Configuration)\</OutDir>
     <IntDir>$(PlatformTarget)\$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <TargetName>libintl</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <OutDir>$(SolutionDir)$(PlatformTarget)\$(Configuration)\</OutDir>
     <IntDir>$(PlatformTarget)\$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <TargetName>libintl</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
     <OutDir>$(SolutionDir)$(PlatformTarget)\$(Configuration)\</OutDir>
     <IntDir>$(PlatformTarget)\$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <TargetName>libintl</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)$(PlatformTarget)\$(Configuration)\</OutDir>
     <IntDir>$(PlatformTarget)\$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
+    <TargetName>libintl</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)$(PlatformTarget)\$(Configuration)\</OutDir>
     <IntDir>$(PlatformTarget)\$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <TargetName>libintl</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -339,7 +347,6 @@
       <UndefinePreprocessorDefinitions>UNICODE</UndefinePreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <OutputFile>x64\Release\libintl.dll</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
