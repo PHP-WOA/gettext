@@ -176,8 +176,8 @@
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
-      <ImportLibrary>$(IntDir)libintl_debug.lib</ImportLibrary>
-      <ProgramDatabaseFile>$(IntDir)libintl_debug.pdb</ProgramDatabaseFile>
+      <ImportLibrary>$(Outdir)libintl_debug.lib</ImportLibrary>
+      <ProgramDatabaseFile>$(Outdir)libintl_debug.pdb</ProgramDatabaseFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
@@ -200,8 +200,8 @@
       <SubSystem>Windows</SubSystem>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
-      <ImportLibrary>$(IntDir)libintl_debug.lib</ImportLibrary>
-      <ProgramDatabaseFile>$(IntDir)libintl_debug.pdb</ProgramDatabaseFile>
+      <ImportLibrary>$(Outdir)libintl_debug.lib</ImportLibrary>
+      <ProgramDatabaseFile>$(Outdir)libintl_debug.pdb</ProgramDatabaseFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
@@ -224,8 +224,8 @@
       <SubSystem>Windows</SubSystem>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
-      <ImportLibrary>$(IntDir)libintl_debug.lib</ImportLibrary>
-      <ProgramDatabaseFile>$(IntDir)libintl_debug.pdb</ProgramDatabaseFile>
+      <ImportLibrary>$(Outdir)libintl_debug.lib</ImportLibrary>
+      <ProgramDatabaseFile>$(Outdir)libintl_debug.pdb</ProgramDatabaseFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -249,7 +249,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <ImportLibrary>$(OutDir)libintl.lib</ImportLibrary>
-      <ProgramDatabaseFile>$(IntDir)libintl.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)libintl.pdb</ProgramDatabaseFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
@@ -274,7 +274,7 @@
       <DataExecutionPrevention>
       </DataExecutionPrevention>
       <ImportLibrary>$(OutDir)libintl.lib</ImportLibrary>
-      <ProgramDatabaseFile>$(IntDir)libintl.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)libintl.pdb</ProgramDatabaseFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
@@ -299,7 +299,7 @@
       <DataExecutionPrevention>
       </DataExecutionPrevention>
       <ImportLibrary>$(OutDir)libintl.lib</ImportLibrary>
-      <ProgramDatabaseFile>$(IntDir)libintl.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)libintl.pdb</ProgramDatabaseFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -322,7 +322,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <ProgramDatabaseFile>$(IntDir)libintl_debug.pdb</ProgramDatabaseFile>
-      <ImportLibrary>$(IntDir)libintl_debug.lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)libintl_debug.lib</ImportLibrary>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -346,8 +346,8 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
-      <ImportLibrary>$(IntDir)libintl.lib</ImportLibrary>
-      <ProgramDatabaseFile>$(IntDir)libintl.pdb</ProgramDatabaseFile>
+      <ImportLibrary>$(OutDir)libintl.lib</ImportLibrary>
+      <ProgramDatabaseFile>$(OutDir)libintl.pdb</ProgramDatabaseFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
